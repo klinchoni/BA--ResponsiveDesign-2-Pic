@@ -47,23 +47,18 @@ header nav img{
     padding: 0;
     margin: 0;
     overflow: hidden; 
-    background-color: #333; 
 }
 
 .floating-menu li {
     float: left; 
-    margin-right: 20px; 
-    padding: 14px 20px; 
+    margin-right: 6px; 
+    padding: 5px 6px;  
 }
 
 .floating-menu li a {
     text-decoration: none; 
     color: white; 
     display: block; 
-}
-
-.floating-menu li a:hover {
-    background-color: #111; 
 }
 
 .floating-menu::after {
@@ -84,7 +79,7 @@ header nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #e22061; 
+    color: #00fbd5; 
 }
 
 header nav ul li {    
@@ -287,7 +282,7 @@ h3 {
     justify-content: space-around;
     padding-top: 2rem;
 }
-
+/* IDK */
 .blog-news ul .news {
     list-style: none outside;
     display: flex;
